@@ -80,7 +80,7 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-    res.send('server is running')
+    res.send('server is connected')
 })
 
 app.listen(port, () => {
